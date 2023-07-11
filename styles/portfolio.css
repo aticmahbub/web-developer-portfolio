@@ -7,6 +7,7 @@ body {
     color: #FD6E0A;
 }
 
+
 .btn-primary {
     color: white;
     font-size: 20px;
@@ -124,8 +125,12 @@ flex-shrink: 0;
 main{
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
+main section{
+    margin-top: 130px;
+}
 /*main section styles*/
 .about{
     padding: 130px;
@@ -157,4 +162,55 @@ margin: 130px 0;
     border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/*resume section styles*/
+.resume-column-title{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+.resume-column-title{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.resume-item-sub-heading{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.resume-description{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.download-cv-button{
+text-align: center;
+margin-top: 20px;}
+
+#exp{
+    margin-left: 150px;
 }
